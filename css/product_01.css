@@ -1,0 +1,136 @@
+header{
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/*헤더 상단 1행 전체 시작---------*/
+.header_box_all{
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 100px;
+}
+    /*헤더 상단 1행(글로벌) left---------*/
+    .header_box_all > .header_box_01{
+        /*직계만 class 적용*/
+        position: relative;
+        float: left;
+        width: 400px;
+        height: 100px;
+    }
+        #header_box_01_up{
+            position: relative;
+            clear: both;
+            width: 400px;
+            height: 50px;
+            line-height: 50px;
+        }
+        #sec_global{
+            position: relative;
+            float: left;
+            width: 200px;
+            height: 50px;
+            margin-top: 10px;
+        }
+            select {
+                position:relative;
+                float: left;
+                width: 100px;
+                height: 30px;
+                
+            }
+            option {
+                width: 50px;
+                height: 30px;
+            }
+            #ins_all {
+                position: relative;
+                float: left;
+                width: 200px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+            }
+            #ins_icon{
+                position: relative;
+                float: left;
+                width: 30px;
+                height: 30px;
+                margin-top: 10px;
+                text-align: center;     
+            }
+        #header_box_01_down{
+            position: relative;
+            clear: both;
+            width: 400px;
+            height: 50px;
+        }
+    /*헤더 상단 1행(logo)- center------*/
+    .header_box_all > .header_box_02 {
+        position: relative;
+        float: left;
+        width: 600px;
+        height: 100px;
+    }
+
+    /*헤더 상단 1행(회원가입) -right-----*/
+    .header_box_all > .header_box_03{
+        position: relative;
+        float: left;
+        width: 400px;
+        height: 100px;
+    }
+        #header_box_03_up{
+            position: relative;
+            clear: both;
+            width: 400px;
+            height: 50px;
+        }
+            #txt_join, #txt_id, #txt_basket, #txt_mypage {
+                position: relative;
+                float: left;
+                width: 100px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                font-size: 1rem;
+            }
+            #header_box_03_down{
+                position: relative;
+                clear: both;
+                width: 400px;
+                height: 50px;
+            }
+
+/*메인 메뉴 제작*/
+.main_menu_all{
+    display: flex;
+    flex-flow: column no-wrap;
+    justify-content: space-between;
+    width: 1400px;
+    height: 30px;
+    margin: 0 auto;
+}
+.main_menu_all #menu_icon #menu_each #search_icon{
+    width: 100%;
+}
+    #menu_03_over:hover{
+        content: url(../img/main_menu_03_02.png);
+    }
+
+    #menu_icon{
+        width: 50px;
+        height: 30px;
+        line-height: 30px;
+        cursor: pointer;
+    }
+    
+    #search_icon{
+        width: 50px;
+        height: 30px;
+        line-height: 30px;
+        cursor: pointer;
+    }

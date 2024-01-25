@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 10pt;
+    color: #121212;
+}
+ul, ol, li {
+    list-style: none;
+}
+
+
+/*여백*/
+.gap_1400_10{
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 10px;
+}
+
+.gap_1400_10_02{
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 10px;
+}
+
+.gap_1400_40{
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.gap_1400_80{
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+}
+.gap_1400_100{
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+}
+
+/*폰트--------------------------*/
+#sec_01_font_01{
+    width: 340px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#sec_01_font_02{
+    width: 340px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#sec_02_font_01 {
+    display: flex;
+    justify-content: center;
+    width: 1480px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#sec_02_font_02 {
+    display: flex;
+    justify-content: center;
+    width: 1480px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#sec_02_font_03 {
+    display: flex;
+    justify-content:right;
+    width: 1400px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1rem;
+    text-align: end;
+    font-family: 'Noto Sans KR', sans-serif;
+    cursor: pointer;
+}
+
+#sec_02_font_04{
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#sec_02_font_05{
+    width: 250px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 0.8rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #8c8c8c;
+}
+#sec_02_font_06{
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#sec_02_font_07{
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0.8rem;
+    font-family: 'Noto Sans KR', sans-serif;
+}
