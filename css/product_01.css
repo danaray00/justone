@@ -134,3 +134,26 @@ header{
         line-height: 30px;
         cursor: pointer;
     }
+
+
+/*---Root 경로 시작---------------------------------------------*/
+
+.path_all{
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom:20px;
+    background: #eee;
+}
+
+#path_01{
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    margin:0 auto;
+}
