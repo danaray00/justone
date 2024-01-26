@@ -133,3 +133,55 @@ ul, ol, li {
     font-size: 0.8rem;
     font-family: 'Noto Sans KR', sans-serif;
 }
+
+/*product----------------------------------*/
+#ment_font_01{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#ment_font_02{
+    font-size: 0.8rem;
+    color: #bababa;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#ment_font_03{
+    font-size: 0.8rem;
+    color: #000;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#ment_font_04{
+    font-size: 1rem;
+    color: #000;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#ment_font_04_00{
+    font-size: 1rem;
+    color: #000;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#ment_font_04_00:hover{
+    font-size: 1rem;
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#sub_font_01{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#sub_font_02{
+    font-size: 0.8rem;
+    color: #8c8c8c;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#sub_font_03{
+    font-size: 0.8rem;
+    color: #272727;
+    font-family: 'Noto Sans KR', sans-serif;
+}

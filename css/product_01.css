@@ -145,7 +145,6 @@ header{
     height: 50px;
     line-height: 50px;
     margin-bottom:20px;
-    background: #eee;
 }
 
 #path_01{
@@ -156,4 +155,549 @@ header{
     line-height: 50px;
     text-align: right;
     margin:0 auto;
+    font-size: 0.8rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #121212;
 }
+
+.top_box_all{
+    position: relative;
+    clear: both;
+    width: 1400px;
+    height: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column no-wrap;
+    justify-content: center;
+}
+
+/*상품 이미지-------------------------------*/
+    .top_box_01{
+        position: relative;
+        width: 660px;
+        height: 900px;
+    }
+        .product_img_main{
+            position: relative;
+            clear: both;
+            width: 660px;
+            height: 660px;
+        }
+        #top_box_00{
+            position: relative;
+            clear: both;
+            width: 660px;
+            height: 10px;
+        }
+        .product_img_sub_box{
+            position: relative;
+            clear: both;
+            width: 628px;
+            height: 140px;
+            display: flex;
+            flex-flow: column no-wrap;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #ddd;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+            #product_img_sub{
+                position: relative;
+                width: 114px;
+                height: 114px;
+            }
+
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+/*-----여백-------------------------------------*/
+
+    .top_box_02{
+        position: relative;
+        width: 140px;
+        height: 900px;
+    }
+
+/*-----우측 설명 부분----------------------------*/
+
+    .top_box_03{
+        position: relative;
+        width: 600px;
+        height: 900px;
+    }
+
+        #ment_01{
+            position: relative;
+            clear: both;
+            width: 100%;
+            height: 30px;
+            display: flex;
+            flex-flow: column no-wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+            #ment_01_01{
+                position: relative;
+                text-align: left;
+            }
+            #share_icon{
+                position: relative;
+                width:30px;
+                height: 30px;
+                cursor: pointer;
+            }
+        #ment_02{
+            position: relative;
+            clear: both;
+            width: 100%;
+            height: 20px;
+            align-items: center;
+        }
+
+        #ment_03{
+            position: relative;
+            clear: both;
+            width: 100%;
+            height: 50px;
+            display: flex;
+            flex-flow: column no-wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #ment_04{
+            position: relative;
+            clear: both;
+            width: 100%;
+            height: 50px;
+            display: flex;
+            flex-flow: column no-wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #ment_05{
+            position: relative;
+            clear: both;
+            width: 100%;
+            height: 50px;
+            display: flex;
+            flex-flow: column no-wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #ment_06{
+            position: relative;
+            clear: both;
+            width: 100%;
+            height: 50px;
+            display: flex;
+            flex-flow: column no-wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #ment_07{
+            position: relative;
+            clear: both;
+            width: 100%;
+            height: 58px;
+            line-height: 60px;
+            display: flex;
+            flex-flow: column no-wrap;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #000;
+            margin: 10px 0px;
+        }
+
+        #box_01{
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            background: #fff;
+            border: 1px solid #ddd;
+            text-align: center;
+            font-size: 0.8rem;
+            margin: 10px 0px 15px 0px;
+            cursor: pointer;
+        }
+        #box_01:hover{
+            background: #ddd;
+        }
+
+        #order_01{
+            width: 100%;
+            height: 48px;
+            line-height: 50px;
+            background: #fff;
+            border: 1px solid #000;
+            text-align: center;
+            font-size: 1rem;
+            border-radius: 10px;
+            margin: 10px 0px; 
+            cursor: pointer; 
+        }
+        #order_01:hover{
+            background: #000;
+            color: #fff;
+        }
+
+        #order_02{
+            width: 100%;
+            height: 48px;
+            line-height: 50px;
+            background: #fff;
+            border: 1px solid #ddd;
+            text-align: center;
+            font-size: 1rem;
+            border-radius: 10px;
+            margin: 10px 0px; 
+            cursor: pointer; 
+        }
+        #order_02:hover{
+            background: #000;
+            color: #fff;
+        }
+        
+        #pay_01{
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            display: flex;
+            flex-flow: column no-wrap;
+            justify-content: space-between;
+            margin: 10px 0px; 
+
+        }
+            #naver{
+                width: 90%;
+                height: 50px;
+                text-align: center;
+                border-radius: 10px;
+                background-color: #36c641;
+                color: #000;
+                cursor: pointer; 
+            }
+            #box_02{
+                width: 9%;
+                height: 50px;
+                text-align: center;
+                border-radius: 10px;
+                color: #000;
+                cursor: pointer;  
+                border: 1px solid #ddd;
+                text-align: center; 
+            }
+            #border_00{
+                position: relative;
+                clear: both;
+                border-top: 1px solid #ddd;
+                width: 100%;
+                height: 15px;
+                margin: 10px 0px;
+            }
+
+            #border_01{
+                position: relative;
+                clear: both;
+                border-top: 1px solid #000;
+                width: 100%;
+                height: 15px;
+                margin: 10px 0px;
+            }
+        #pay_02{
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            display: flex;
+            flex-flow: column no-wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+            #ment_kakao{
+                width: 16%;
+                height: 50px;
+                line-height: 50px;
+                font-size: 0.7rem;
+                font-family: 'Noto Sans KR', sans-serif;
+                text-align: center;
+                border-radius: 10px;
+                color: #000;
+                text-align: center; 
+
+            }
+            #kakao{
+                width: 83%;
+                height: 50px;
+                text-align: center;
+                border-radius: 10px;
+                background-color: #F7E600;
+                color: #000;
+                cursor: pointer;
+                font-size: 0.6rem;
+            }
+
+/*하단 상품 이미지---------------------------------------*/
+.bottom_box_all{
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+    .bottom_box_01{
+        position: relative;
+        clear: both;
+        width: 80%;
+        height: 48px;
+        margin: 0 auto;
+        border: 1px solid #ddd;
+        display: flex;
+        flex-flow: column no-wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 50px;
+        line-height: 48px;
+    }
+        #sub_ment_00{
+            position: relative;
+            width: 10%;
+            height: 47px;
+            text-align: center;
+            border-bottom: 3px solid #000;
+            font-weight: bold;
+        }
+        #sub_ment_01{
+            position: relative;
+            width: 150px;
+            height: 47px;
+            text-align: center;
+            cursor: pointer;
+        }
+        #sub_ment_01:hover{
+            border-bottom: 3px solid #000;
+            font-weight: bold;
+        }
+    .bottom_box_02{
+        position: relative;
+        clear: both;
+        width: 890px;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        }
+    .bottom_box_03{
+        position: relative;
+        clear: both;
+        width: 1050px;
+        height: 1800px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column wrap;
+        }
+            #sub_ment_02{
+                width: 1050px;
+                height: 50px;
+                line-height: 50px;
+                margin: 0 auto;
+                font-size: 1.3rem;
+                color: #000;
+                font-weight: bold;
+                position: relative;
+                clear: both;
+                text-align: center;
+                font-family: 'Noto Sans KR', sans-serif;
+            }
+            #sub_ment_03{
+                width: 100px;
+                height: 20px;
+                line-height: 20px;
+                font-size: 0.8rem;
+                color: #a9a9a9;
+                position: relative;
+                clear: both;
+                text-align: right;
+                margin-left: 950px;
+                margin-bottom: 20px;
+                border-bottom: 1px solid #a9a9a9;
+                font-family: 'Noto Sans KR', sans-serif;
+                cursor: pointer;
+            }
+            .size_box{
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 1700px;
+                margin: 0 auto;
+                border: 1px solid #ddd;
+            }
+                .size_top{
+                    position: relative;
+                    clear: both;
+                    width: 100%;
+                    height: 95%;
+                    margin: 0 auto;
+                    display: flex;
+                    flex-flow: column no-wrap;
+                }
+                    .size_left{
+                        position: relative;
+                        width: 60%;
+                        height: 100%;
+                        display: flex;
+                        flex-flow: column wrap;
+                        border-right: 1px solid #ddd;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+
+                        #left_01{
+                            position: relative;
+                            clear: both;
+                            width: 512px;
+                            height: 512px;
+                            align-items: center;
+                        }
+                        #left_02{
+                            position: relative;
+                            clear: both;
+                            width: 600px;
+                            height: 290px;
+                            align-items: center;
+                        }
+                            #sub_ment_05{
+                                position: relative;
+                                clear: both;
+                                width: 100%;
+                                height: 30px;
+                            }
+                            #size_grid{
+                                position: relative;
+                                clear: both;
+                                width: 100%;
+                                height: 120px;
+                                align-items: center;
+                            }
+
+                            #sub_ment_06{
+                                position: relative;
+                                clear: both;
+                                width: 600px;
+                                height: 20px;
+                            }
+                            #sub_ment_07{
+                                position: relative;
+                                clear: both;
+                                width: 600px;
+                                height: 120px;
+                                line-height: 1.5rem;
+                            }
+                        #left_03{
+                            position: relative;
+                            clear: both;
+                            width: 600px;
+                            height: 260px;
+                            align-items: center;
+                        }
+                        #left_04{
+                            position: relative;
+                            clear: both;
+                            width: 600px;
+                            height: 400px;
+                            align-items: center;
+                        }
+                            #detail_grid{
+                                position: relative;
+                                clear: both;
+                                width: 600px;
+                                height: auto;
+                                margin: 0 auto;
+                            }
+                .size_right{
+                    position: relative;
+                    width: 40%;
+                    height: 100%;
+                    display: flex;
+                    flex-flow: column wrap;
+                    align-items: center;
+                    padding-top: 30px;
+                }
+                                #right_01{
+                                    position: relative;
+                                    clear: both;
+                                    width: 350px;
+                                    height: auto;
+
+                                }
+                                #right_02{
+                                    position: relative;
+                                    clear: both;
+                                    width: 350px;
+                                    height: auto;
+                                    border-top: 1px solid #ddd;
+                                }
+
+
+                .size_bottom{
+                    position: relative;
+                    clear: both;
+                    width: 100%;
+                    height: 5%;
+                    margin: 0 auto;
+                    display: flex;
+                    flex-flow: column no-wrap;
+                    border-top: 1px solid #ddd;
+                    align-items: center;
+                    gap: 10px;
+                }
+                    #sub_ment_08{
+                        position: relative;
+                        width: 200px;
+                        height: 80px;
+                        line-height: 80px;
+                        text-align: center;
+                        font-size: 0.8rem;
+                        color: #000;
+                        font-family: 'Noto Sans KR', sans-serif;
+                    }
+
+                    #sub_btn_01{
+                        position: relative;
+                        width: 40px;
+                        height: 30px;
+                        line-height: 30px;
+                        text-align: center;
+                        font-size: 0.8rem;
+                        color: #000;
+                        font-family: 'Noto Sans KR', sans-serif;
+                        border: 1px solid #ddd;
+                        cursor: pointer;
+                    }
+                    
+                    #sub_btn_01:hover{
+                        background-color: #ddd;
+                    }
+
+                    #sub_btn_02{
+                        position: relative;
+                        width: 50px;
+                        height: 30px;
+                        line-height: 30px;
+                        text-align: center;
+                        font-size: 0.8rem;
+                        color: #000;
+                        font-family: 'Noto Sans KR', sans-serif;
+                        border: 1px solid #ddd;
+                        cursor: pointer;
+                    }
+                    
+                    #sub_btn_02:hover{
+                        background-color: #ddd;
+                    }
