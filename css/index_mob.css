@@ -209,7 +209,7 @@ header{
                 position: relative;
                 width: 420px;
                 height: 340px;
-                background: url(/img/mo_main_title_img_01.jpg);
+                background: url(../img/mo_main_title_img_01.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
             }
@@ -470,7 +470,7 @@ header{
     margin: 0 auto;
 }
     #middle_img_each{
-        background:url(/img/mo_middle_img_01.jpg);
+        background:url(../img/mo_middle_img_01.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
